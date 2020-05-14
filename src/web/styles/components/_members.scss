@@ -1,0 +1,78 @@
+/**
+ * Styles for the member/s.js component/s
+ */
+
+.members-view-card {
+  @include media-breakpoint-down(md) {
+    margin-bottom: 20px;
+  } 
+}
+
+.member-card{
+  border: 0;    
+  margin-bottom: 20px;
+  width: 100%;
+  min-height: 60px;
+  flex-direction: row;
+  float: left;
+  background-color: $LightGray;
+  display: flex;
+  padding: 0.1rem;
+
+  .body{
+    overflow: auto;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+  }
+  .img{
+    @include ProfileImageSmall;
+  }
+  .text{
+    color: $Gold;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    @include ShortTransition;
+    
+    &:hover {
+      color: $LightGold;
+      padding: 0.75rem 0.75rem;
+      @include ShortTransition;
+    }
+
+
+  }
+  .popup-card{
+    width: 100%;
+    min-height: 120px;
+    max-height: 200px;
+    background-color: $LightGray;
+    display: flex;
+    padding: 0;
+  
+    .popup-body{
+      overflow: auto;
+      display: flex;
+      flex-direction: row;      
+      padding: 0;
+
+      .popup-text-body{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 4px;
+      }
+
+    }
+    .popup-img{
+     @include ProfileImageLarge;
+    }
+    .popup-title{
+      color: $Gold;
+      top: 0;
+    }
+    .popup-text{
+      color: $Gold;
+      margin-top: 4px;
+    }
+  }
+}

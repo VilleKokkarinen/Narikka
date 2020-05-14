@@ -1,0 +1,79 @@
+/**
+ * Styles for the Header.js component
+ */
+
+ header {
+  svg {
+    position: absolute;
+    right: -20%;
+    top: 2px;
+  }
+}
+
+.navbar-brand {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 0.9rem;
+}
+.header-image{
+  zoom: 2;  //increase if you have very small images
+
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
+}
+
+.fixed-top {
+  background-color: #191b20;
+  border-bottom: 1px solid $DarkerGold;
+}
+
+.form-control::-moz-placeholder {
+  color: $Gold;
+}
+.form-control:-ms-input-placeholder {
+  color: $Gold;
+}
+.form-control::-webkit-input-placeholder {
+  color: $Gold;
+}
+.text-area {
+  &, a {
+    color: $LightGold;;
+    background-color: #1c1f25;
+    border: none;
+    border-bottom: 1px solid #000000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .focus, &:focus{
+    &, a {
+      color: $LightGold;
+    background-color: #1c1f25;    
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ffd970;
+  } 
+  }
+}
+.dropdown-item {
+  &, a {
+    color: $Gold;
+    transition: color 0.5s;
+    background-color: #1c1f25;
+  }
+
+  .active, &:active, &:hover{
+    &, a {
+      color: $LightGold;
+      transition: color 0.5s;
+      background-color: #141519;
+    }
+  }
+}

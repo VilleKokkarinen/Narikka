@@ -1,0 +1,37 @@
+/**
+ * Styles for the component/s
+ */
+
+.event-view-card {
+  @include media-breakpoint-down(md) {
+    margin-bottom: 20px;
+  }
+}
+.p-card{
+  @include DarkGoldBorder;
+  margin: 10px;
+  margin-top: 5px;
+  max-width: 500px;
+  max-height: 500px;
+  background-color: $LightGray;
+}
+.p-body{
+  overflow: auto;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+}
+.p-card-img{
+  @include DarkGoldBorder;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+
+  max-height: 25vh;
+  max-width: 100%;
+}
+.p-card-text{
+  color: yellow;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}

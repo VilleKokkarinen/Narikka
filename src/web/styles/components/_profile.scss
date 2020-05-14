@@ -1,0 +1,44 @@
+/**
+ * Styles for the component/s
+ */
+.profile{
+  background-color: $LightGray;
+  border: 1px solid #4e3900da;
+
+  .group{
+    margin-top: 10px;
+  }
+  .img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b88700;
+    background-color: #6b4f00;
+  }
+  .text{
+    color: #ffd970;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #555555;  
+    border: 3px outset rgb(130, 130, 130);   
+    transition: 1s;
+
+    &:focus {     
+      background-color: #707070;  
+      border: 3px outset rgb(155, 155, 155);   
+      transition: 1s;  
+    }
+   
+  }
+  .header{
+    font-size: 13px;
+    color: rgb(252, 252, 252);
+    background-color: $DarkGray;
+    padding: 7px 10px;
+    border-bottom: 1px solid #4e3900da;
+    border-right-width: 0;
+    border-left-width: 0;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+}

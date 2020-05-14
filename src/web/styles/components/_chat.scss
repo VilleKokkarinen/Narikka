@@ -1,0 +1,82 @@
+/**
+ * Styles for the event/s.js component/s
+ */
+ .reply-card{
+  width: 100%;
+  background-color: #606060;
+  margin-bottom: 20px;
+  border: 1px solid #4e3900da;
+  display: flex;
+  .reply-card-header{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    flex-direction: column;
+  }
+ }
+.chat-card-body{
+  width: 100%;
+  flex-direction: column;
+  background-color: #606060;
+  margin-bottom: 20px;
+  border: 1px solid #4e3900da;
+
+  .chat-card-main-body{   
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  min-height: 0; //Chrome update broke flexbox and this fixed it somehow?
+  }
+  .chat-card-timestamp-body{
+    font-size: 13px;
+    color: rgb(252, 252, 252);
+    background-color: rgb(3, 33, 43);
+    padding: 7px 10px;
+    border-bottom: 1px solid #4e3900da;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+  .chat-card-timestamp-text{
+    color: rgb(255, 255, 255);  
+  }
+  .chat-card-author-body{
+    float: left;
+    height: 100%;
+    width: 100px;
+    border-right: 1px solid #4e3900da;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    flex-direction: column;
+    padding: 5px;
+   
+  }
+  .chat-card-author-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b88700;
+    background-color: #6b4f00;    
+  }
+  .chat-card-author-text{
+    color: #ffd970;
+    font-weight: bold;
+    font-size: 13px;
+    display: block;
+    overflow: hidden;
+    margin: 5px;
+    text-align: center;
+  }
+  .chat-card-message-body{
+    padding-bottom: 2px;
+    overflow: hidden;    
+    //float: right;    
+    background-color: #6d6d6d;
+    padding: 5px 5px 5px 10px;
+    flex: 1;
+    height: 100%;    
+    overflow-y: scroll;
+    max-height: 250px;
+  }  
+}

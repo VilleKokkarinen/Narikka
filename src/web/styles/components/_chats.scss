@@ -1,0 +1,36 @@
+/**
+ * Styles for the component/s
+ */
+ .chat-card{
+  margin-top: 10px;
+  background-color: $LightGray;
+  align-items: center;
+  flex-direction: row;
+  padding: 0;  
+  border: 1px solid $DarkestGold;
+
+  .chat-body{
+    overflow: auto;    
+    flex-direction: column;
+    padding: 0;
+  }
+  .chat-participants{
+    display: flex;
+    vertical-align: top;
+    padding: 0;
+  }
+  .chat-card-text{
+    color: #242424;
+  }
+  .chat-card-title{
+    font-size: 15px;
+    color: #ffd970;
+    background-color: $DarkGray;
+    padding: 7px 10px;
+    border-bottom: 1px solid $DarkestGold;
+    border-right-width: 0;
+    border-left-width: 0;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+}

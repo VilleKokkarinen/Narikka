@@ -1,0 +1,53 @@
+@import "bootstrap";
+@import "components/sidebar";
+@import "components/events";
+@import "components/members";
+@import "components/chats";
+@import "components/chat";
+@import "components/loading";
+@import "components/header";
+@import "components/footer";
+@import "components/profile";
+
+body {
+}
+
+/**
+ * Form Overrides
+ */
+.form-control {
+  &:focus {
+    outline: none !important;
+    box-shadow: none;
+    border-color: $gray-400;
+    border-bottom-color: $primary;
+  }
+}
+
+.btn {
+  
+  color: $Gold;
+  i {
+    font-size: 0.8rem;
+  }
+}
+
+/**
+ * Jumbotron
+ */
+.jumbotron {
+  border-radius: 0;
+}
+
+/**
+ * Pulsating Loading Animation
+ */
+.content-loading {
+  opacity: 1;
+  animation: fadeInOut 1s linear;
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0.2 }
+  50% { opacity: 0.7 }
+}

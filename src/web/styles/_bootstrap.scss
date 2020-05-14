@@ -1,0 +1,52 @@
+// Override Bootstrap's variables before importing
+
+// Colors
+$Black: #191b20;
+$DarkGray: #22262E;
+$Gray: #4e4e4e;
+$LightGray: #606060;
+$LighterGray: #6d6d6d;
+$Gold: #ddbb5c;
+$DarkGold: #a07500;
+$DarkerGold: #775700;
+$DarkestGold: #4e3900;
+$LightGold: #ffd970;
+$primary: $Black;
+$body-bg: rgb(83, 83, 83);
+$body-color: $LightGold;
+@mixin ProfileImageSmall {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid $DarkGold;
+};
+@mixin ProfileImageLarge {
+    height: 126px;
+    width: 126px;
+    border: 2px solid $DarkGold;
+}
+@mixin DarkGoldBorder {    
+    border: 1px solid $DarkestGold;
+}
+@mixin GoldBorder {
+    border: 1px solid $DarkerGold;
+}
+@mixin BlackBorder {
+    border: 1px solid $Black;
+}
+@mixin ShortTransition {    
+    transition: color 1s, padding 1s;
+}
+
+// Jumbotron
+$jumbotron-bg: white;
+
+// Misc
+$border-radius: 0;
+
+// Type
+$font-family-sans-serif: 'Inter UI', sans-serif;
+$headings-margin-bottom: 0.5em;
+
+// Then import Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
