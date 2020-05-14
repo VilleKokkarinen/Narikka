@@ -1,13 +1,13 @@
 {
-  "main.css": "/VilleKokkarinen.github.io/Narikka/static/css/main.9bd43f9c.chunk.css",
-  "main.js": "/VilleKokkarinen.github.io/Narikka/static/js/main.77296cb3.chunk.js",
-  "main.js.map": "/VilleKokkarinen.github.io/Narikka/static/js/main.77296cb3.chunk.js.map",
-  "runtime~main.js": "/VilleKokkarinen.github.io/Narikka/static/js/runtime~main.da171980.js",
-  "runtime~main.js.map": "/VilleKokkarinen.github.io/Narikka/static/js/runtime~main.da171980.js.map",
-  "static/js/2.f61242da.chunk.js": "/VilleKokkarinen.github.io/Narikka/static/js/2.f61242da.chunk.js",
-  "static/js/2.f61242da.chunk.js.map": "/VilleKokkarinen.github.io/Narikka/static/js/2.f61242da.chunk.js.map",
-  "index.html": "/VilleKokkarinen.github.io/Narikka/index.html",
-  "precache-manifest.ca34d41dcf0288a36e57a981674a39ae.js": "/VilleKokkarinen.github.io/Narikka/precache-manifest.ca34d41dcf0288a36e57a981674a39ae.js",
-  "service-worker.js": "/VilleKokkarinen.github.io/Narikka/service-worker.js",
-  "static/css/main.9bd43f9c.chunk.css.map": "/VilleKokkarinen.github.io/Narikka/static/css/main.9bd43f9c.chunk.css.map"
+  "main.css": "/Narikka/static/css/main.9bd43f9c.chunk.css",
+  "main.js": "/Narikka/static/js/main.2f328a43.chunk.js",
+  "main.js.map": "/Narikka/static/js/main.2f328a43.chunk.js.map",
+  "runtime~main.js": "/Narikka/static/js/runtime~main.4c7d52d4.js",
+  "runtime~main.js.map": "/Narikka/static/js/runtime~main.4c7d52d4.js.map",
+  "static/js/2.3d406d9c.chunk.js": "/Narikka/static/js/2.3d406d9c.chunk.js",
+  "static/js/2.3d406d9c.chunk.js.map": "/Narikka/static/js/2.3d406d9c.chunk.js.map",
+  "index.html": "/Narikka/index.html",
+  "precache-manifest.5d29f19aaf7f58d0a549a807c47e9a32.js": "/Narikka/precache-manifest.5d29f19aaf7f58d0a549a807c47e9a32.js",
+  "service-worker.js": "/Narikka/service-worker.js",
+  "static/css/main.9bd43f9c.chunk.css.map": "/Narikka/static/css/main.9bd43f9c.chunk.css.map"
 }

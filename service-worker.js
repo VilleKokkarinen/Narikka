@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/VilleKokkarinen.github.io/Narikka/precache-manifest.ca34d41dcf0288a36e57a981674a39ae.js"
+  "/Narikka/precache-manifest.5d29f19aaf7f58d0a549a807c47e9a32.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/VilleKokkarinen.github.io/Narikka/index.html", {
+workbox.routing.registerNavigationRoute("/Narikka/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
