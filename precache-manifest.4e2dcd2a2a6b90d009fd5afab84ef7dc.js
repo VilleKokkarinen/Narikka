@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/Narikka/static/js/runtime~main.4c7d52d4.js"
   },
   {
-    "revision": "4fc4b397ab8776674e6f",
-    "url": "/Narikka/static/js/main.2f328a43.chunk.js"
+    "revision": "ba51046b7bf87315c024",
+    "url": "/Narikka/static/js/main.853c1ec0.chunk.js"
   },
   {
     "revision": "53a7e7df04a9289ac707",
     "url": "/Narikka/static/js/2.3d406d9c.chunk.js"
   },
   {
-    "revision": "4fc4b397ab8776674e6f",
+    "revision": "ba51046b7bf87315c024",
     "url": "/Narikka/static/css/main.9bd43f9c.chunk.css"
   },
   {
-    "revision": "be9d5b688fbbe3a7f2c4f0c032dd2c7d",
+    "revision": "45d387612691f7fc8f2d48496c5df766",
     "url": "/Narikka/index.html"
   }
 ];
