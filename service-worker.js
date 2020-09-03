@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Narikka/precache-manifest.4e2dcd2a2a6b90d009fd5afab84ef7dc.js"
+  "/Narikka/precache-manifest.d3cf65d6b48673bcfbc6c61fd0afa913.js"
 );
 
 workbox.clientsClaim();
