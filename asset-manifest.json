@@ -1,13 +1,13 @@
 {
-  "main.css": "/Narikka/static/css/main.9bd43f9c.chunk.css",
-  "main.js": "/Narikka/static/js/main.413cd31d.chunk.js",
-  "main.js.map": "/Narikka/static/js/main.413cd31d.chunk.js.map",
-  "runtime~main.js": "/Narikka/static/js/runtime~main.4c7d52d4.js",
-  "runtime~main.js.map": "/Narikka/static/js/runtime~main.4c7d52d4.js.map",
-  "static/js/2.3d406d9c.chunk.js": "/Narikka/static/js/2.3d406d9c.chunk.js",
-  "static/js/2.3d406d9c.chunk.js.map": "/Narikka/static/js/2.3d406d9c.chunk.js.map",
-  "index.html": "/Narikka/index.html",
-  "precache-manifest.d3cf65d6b48673bcfbc6c61fd0afa913.js": "/Narikka/precache-manifest.d3cf65d6b48673bcfbc6c61fd0afa913.js",
-  "service-worker.js": "/Narikka/service-worker.js",
-  "static/css/main.9bd43f9c.chunk.css.map": "/Narikka/static/css/main.9bd43f9c.chunk.css.map"
+  "main.css": "/static/css/main.9bd43f9c.chunk.css",
+  "main.js": "/static/js/main.b3364a32.chunk.js",
+  "main.js.map": "/static/js/main.b3364a32.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.beeed752.chunk.js": "/static/js/2.beeed752.chunk.js",
+  "static/js/2.beeed752.chunk.js.map": "/static/js/2.beeed752.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.6b1ca371767637ddb52c744efa83475a.js": "/precache-manifest.6b1ca371767637ddb52c744efa83475a.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.9bd43f9c.chunk.css.map": "/static/css/main.9bd43f9c.chunk.css.map"
 }
